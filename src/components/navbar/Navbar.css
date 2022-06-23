@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #black;
+
+    height:100px
+}
+
+.refs{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+
+    
+}
+a{
+   
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    width: 80px;
+    height: 120px;
+}
+
+a:hover{
+    background-color: rgb(65, 192, 228);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    width: 80px;
+    height: 120px;
+}
